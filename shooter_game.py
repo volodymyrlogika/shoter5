@@ -13,9 +13,6 @@ window = display.set_mode((WIDTH, HEIGHT))
 display.set_caption("Shooter")
 clock = time.Clock()
 
-mixer.music.load("space.ogg")
-mixer.music.set_volume(0.5) #задаємо гучність музики
-mixer.music.play() 
 
 
 font1 = font.SysFont("Impact", 50) #1) створюємо шрифт
